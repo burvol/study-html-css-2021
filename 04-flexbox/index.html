@@ -5,60 +5,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <div class="wrapper">
+       <header class="header">
+        <a href="#" class="logo"><span>m</span>art</a>
         <nav>
             <ul class="menu">
-                <li class="menu__item"><a class="menu__item_link" href="#">lifestyle</a></li>
-                <li class="menu__item"><a class="menu__item_link" href="#">photodiary</a></li>
-                <li class="menu__item"><a class="menu__item_link" href="#">music</a></li>
-                <li class="menu__item"><a class="menu__item_link" href="#">travel</a></li>
+                <li class="menu__item"><a class="menu__item_link" href="#">Home</a></li>
+                <li class="menu__item"><a class="menu__item_link" href="#">About Us</a></li>
+                <li class="menu__item"><a class="menu__item_link" href="#">page</a></li>
+                <li class="menu__item"><a class="menu__item_link" href="#">shop</a></li>
+                <li class="menu__item"><a class="menu__item_link" href="#">Blog</a></li>
+                <li class="menu__item"><a class="menu__item_link" href="#">Contact us</a></li>
             </ul>
         </nav>
-        <ul class="articles">
-            <li class="article">
-                <img class="article__img" width="420" src="./images/image-1.jpg" alt="waitress">    
-                <h4 class="article__subtitle">Lifestyle</h4>    
-                <h2 class="article__title">More than just a music festival </h2>
-                <p class="article__text">Lorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, cons</p>
+       </header>
+
+       <section class="products">
+           <h2 class="products__title title">FEATURED PRODUCTS</h2>
+           <div class="green_line"></div>
+           <ul class="products__cards">
+               <li class="products__card">
+                   <img src="/images/mart/product1.jpg" alt="product" class="products__card_img">
+                   <div class="products__card_footer">
+                       <h4 class="products__card_name">Blue Tshirt</h4>
+                       <div class="product__card_price">$26</div>
+                   </div>
+               </li>
+               <li class="products__card">
+                   <img src="/images/mart/product2.jpg" alt="product" class="products__card_img">
+                   <div class="products__card_footer">
+                       <h4 class="products__card_name">WOMAN shirt</h4>
+                       <div class="product__card_price">$31</div>
+                   </div>
+               </li>
+               <li class="products__card">
+                   <img src="/images/mart/product3.jpg" alt="product" class="products__card_img">
+                   <div class="products__card_footer">
+                       <h4 class="products__card_name">YELLOW Tshirt</h4>
+                       <div class="product__card_price">$21</div>
+                   </div>
+               </li>
+               <li class="products__card">
+                   <img src="/images/mart/product4.jpg" alt="product" class="products__card_img">
+                   <div class="products__card_footer">
+                       <h4 class="products__card_name">Cool lingerie</h4>
+                       <div class="product__card_price">$56</div>
+                   </div>
+               </li>
+               <li class="products__card">
+                   <img src="/images/mart/product5.jpg" alt="product" class="products__card_img">
+                   <div class="products__card_footer">
+                       <h4 class="products__card_name">Blue Tshirt</h4>
+                       <div class="product__card_price">$26</div>
+                   </div>
+               </li>
+               <li class="products__card">
+                   <img src="/images/mart/product6.jpg" alt="product" class="products__card_img">
+                   <div class="products__card_footer">
+                       <h4 class="products__card_name">WOMAN shirt</h4>
+                       <div class="product__card_price">$31</div>
+                   </div>
+               </li>
+               <li class="products__card">
+                   <img src="/images/mart/product7.jpg" alt="product" class="products__card_img">
+                   <div class="products__card_footer">
+                       <h4 class="products__card_name">YELLOW Tshirt</h4>
+                       <div class="product__card_price">$21</div>
+                   </div>
+               </li>
+               <li class="products__card">
+                   <img src="/images/mart/product8.jpg" alt="product" class="products__card_img">
+                   <div class="products__card_footer">
+                       <h4 class="products__card_name">Cool lingerie</h4>
+                       <div class="product__card_price">$56</div>
+                   </div>
+               </li>
+           </ul>
+       </section>
+
+       <section class="news">
+        <h2 class="news__title title">LATEST NEWS</h2>
+        <div class="green_line"></div>
+        <ul class="news__posts">
+            <li class="news__post">
+                <img src="/images/mart/post1.jpg" alt="post img" class="news__post_img">
+                <h3 class="news__post_subtitle">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean </h3>
+                <div class="green_line smoll"></div>
+                <p class="news__post_text">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt </p>
+                <button class="news__post_btn">Read More</button>
             </li>
-            <li class="article">
-                <img class="article__img" width="420" src="./images/image-2.jpg" alt="cup coffe">    
-                <h4 class="article__subtitle">Lifestyle</h4>    
-                <h2 class="article__title">More than just a music festival </h2>
-                <p class="article__text">Lorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, cons</p>
+            <li class="news__post">
+                <img src="/images/mart/post2.jpg" alt="post img" class="news__post_img">
+                <h3 class="news__post_subtitle">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean </h3>
+                <div class="green_line smoll"></div>
+                <p class="news__post_text">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt </p>
+                <button class="news__post_btn">Read More</button>
             </li>
-            <li class="article">
-                <img class="article__img" width="420" src="./images/image-3.jpg" alt="bridge and two gierls">    
-                <h4 class="article__subtitle">Photodiary</h4>    
-                <h2 class="article__title">More than just a music festival </h2>
-                <p class="article__text">Lorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, cons</p>
-            </li>
-            <li class="article">
-                <img class="article__img" width="420" src="./images/image-4.jpg" alt="man standing with his back">    
-                <h4 class="article__subtitle">Photodiary</h4>    
-                <h2 class="article__title">More than just a music festival </h2>
-                <p class="article__text">Lorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, cons</p>
-            </li>
-            <li class="article">
-                <img class="article__img" width="420" src="./images/image-5.jpg" alt="bridge and two gierls">    
-                <h4 class="article__subtitle">Photodiary</h4>    
-                <h2 class="article__title">More than just a music festival </h2>
-                <p class="article__text">Lorem  ipsum dolor sit amet, consLorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, cons</p>
-            </li>
-            <li class="article">
-                <img class="article__img" width="420" src="./images/image-6.jpg" alt="man standing with his back">    
-                <h4 class="article__subtitle">Photodiary</h4>    
-                <h2 class="article__title">More than just a music festival </h2>
-                <p class="article__text">Lorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, consLorem ipsum dolor sit amet, cons</p>
+            <li class="news__post">
+                <img src="/images/mart/post3.jpg" alt="post img" class="news__post_img">
+                <h3 class="news__post_subtitle">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean </h3>
+                <div class="green_line smoll"></div>
+                <p class="news__post_text">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt </p>
+                <button class="news__post_btn">Read More</button>
             </li>
         </ul>
-        <button class="button">Load more</button>
+       </section>
     </div>
 </body>
 </html>
